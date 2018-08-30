@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26687" started-at="2018-08-28T07:52:16Z" finished-at="2018-08-28T07:52:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26687" started-at="2018-08-28T07:52:16Z" finished-at="2018-08-28T07:52:43Z">
+      <class name="emaiablereport.report">
+        <test-method status="PASS" signature="add_lead()[pri:0, instance:emaiablereport.report@d8355a8]" name="add_lead" duration-ms="25" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_lead -->
+        <test-method status="FAIL" signature="add_order()[pri:0, instance:emaiablereport.report@d8355a8]" name="add_order" duration-ms="10" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at emaiablereport.report.add_order(report.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_order -->
+        <test-method status="PASS" signature="api_configuration()[pri:0, instance:emaiablereport.report@d8355a8]" name="api_configuration" duration-ms="9" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_configuration -->
+        <test-method status="PASS" signature="chart_report()[pri:0, instance:emaiablereport.report@d8355a8]" name="chart_report" duration-ms="2" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chart_report -->
+        <test-method status="PASS" signature="esclation()[pri:0, instance:emaiablereport.report@d8355a8]" name="esclation" duration-ms="1" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- esclation -->
+        <test-method status="PASS" signature="feedback()[pri:0, instance:emaiablereport.report@d8355a8]" name="feedback" duration-ms="2" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedback -->
+        <test-method status="PASS" signature="hold_unhold()[pri:0, instance:emaiablereport.report@d8355a8]" name="hold_unhold" duration-ms="1" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hold_unhold -->
+        <test-method status="PASS" signature="live_feed()[pri:0, instance:emaiablereport.report@d8355a8]" name="live_feed" duration-ms="2" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- live_feed -->
+        <test-method status="PASS" signature="login_page()[pri:0, instance:emaiablereport.report@d8355a8]" name="login_page" duration-ms="26504" started-at="2018-08-28T07:52:17Z" finished-at="2018-08-28T07:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_page -->
+        <test-method status="PASS" signature="order_history()[pri:0, instance:emaiablereport.report@d8355a8]" name="order_history" duration-ms="5" started-at="2018-08-28T07:52:43Z" finished-at="2018-08-28T07:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- order_history -->
+        <test-method status="PASS" signature="todays_order()[pri:0, instance:emaiablereport.report@d8355a8]" name="todays_order" duration-ms="6" started-at="2018-08-28T07:52:43Z" finished-at="2018-08-28T07:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todays_order -->
+        <test-method status="PASS" signature="user()[pri:0, instance:emaiablereport.report@d8355a8]" name="user" duration-ms="7" started-at="2018-08-28T07:52:43Z" finished-at="2018-08-28T07:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method status="PASS" signature="wallet_reachage()[pri:0, instance:emaiablereport.report@d8355a8]" name="wallet_reachage" duration-ms="1" started-at="2018-08-28T07:52:43Z" finished-at="2018-08-28T07:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wallet_reachage -->
+        <test-method status="PASS" signature="wallet_transaction()[pri:0, instance:emaiablereport.report@d8355a8]" name="wallet_transaction" duration-ms="3" started-at="2018-08-28T07:52:43Z" finished-at="2018-08-28T07:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wallet_transaction -->
+      </class> <!-- emaiablereport.report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
